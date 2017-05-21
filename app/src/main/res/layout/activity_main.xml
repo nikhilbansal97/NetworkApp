@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03a9f4"
+    android:orientation="vertical"
+    tools:context="com.example.nikhil.network.MainActivity">
+
+    <TextView
+        android:id="@+id/mobile_state"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/mobile_state"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/wifi_state"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/wifi_state"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
